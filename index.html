@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jsDrawBoard</title>
+        <style>
+            canvas {
+                outline: 1px dashed lightskyblue;
+            }
+        </style>
+        <script src='src/utils.js'></script>
+        <script src='src/object.js'></script>
+        <script src='src/point.js'></script>
+        <script src='src/size.js'></script>
+        <script src='src/color.js'></script>
+        <script src='src/canvas.js'></script>
+        <script src='src/button.js'></script>
+    </head>
+    <body>
+        <canvas id="id-canvas" width="600" height="500"></canvas>
+        <br>
+        <button class="undo" name="button">撤销</button>
+        <button class="clear" name="button">清空</button>
+        <button class="save" name="button">保存</button>
+        <input class='color' type="color"/>
+        <br>
+        <button class="pencil" name="button">铅笔</button>
+        <button class="line" name="button">线条</button>
+        <button class="ract" name="button">矩形</button>
+        <!-- <button class="button" name="button">按钮</button> -->
+
+    </body>
+    <script src="src/index.js"></script>
+</html>
